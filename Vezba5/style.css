@@ -1,0 +1,15 @@
+.kartica{
+    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+    background-color: #0000ff;
+    top: 50px;
+}
+
+.kartica1{
+    position: absolute;
+    top: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}

@@ -1,0 +1,28 @@
+.card1{
+    width: 200px;
+    height: 350px;
+    background-color: purple;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    z-index: 2;
+    }
+
+    .card2{
+        width: 350px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .card3{
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        background-color: yellow;
+        z-index: 5;
+    
+    }
