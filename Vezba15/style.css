@@ -1,0 +1,91 @@
+/* .card{
+    width: 100px;
+    height: 100px;
+    background-color: #663399; */
+    /* transform: translate(50px,100px); */
+    /* transform: rotate(80deg); */
+    /* transform: scale(1,2); */
+    /* transform: scaleX(2); */
+    /* transform: skewY(20deg); */
+    /* transform: matrix(2,-0.3,0,1,0,0); */
+    /* transform: rotateY(90deg); */
+    /* transition: width 2s, height 4s,transform 2s; */
+    /* transition-delay: 1s; */
+    /* position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3; */
+    /* infinite */
+/* } */
+
+/* .card:hover{ */
+    /* width: 500px;
+    height: 700px;
+    transform: rotate(180deg); */
+    
+/* } */
+
+/*
+transition-delay - odlaze tranziciju
+Tranzicije nam omogucavaju da menjamo svojstva
+
+
+Css transformacije nam omoguvavaju da pomeramo, rotiramo, 
+skaliramo i kosimo elemente
+
+translate - pomera element 
+rotate - rotira 
+scale - povecava ili smanjuje velicinu elementa
+scaleX-samo sirina
+scaleY-samo visina
+
+skewX - kosi element duz X ose za dati ugao
+
+matrix - kombinuje sve metode u jednu 
+matrix(scaleX,skewY,skewX,scaleY,translateX,translateY);
+*/
+
+
+/* @keyframes example{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: rgb(209, 209, 22);
+    }
+} */
+
+/* 
+@keyframes example {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow;left: 500px; top: 0px;}
+    50%{
+        background-color: blue;
+        left: 500px; top: 500px;
+    }
+    100%{
+        background-color: green;
+        left: 0px;
+        top: 0px;
+    }
+} */
+
+p{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+        font-size: 45px;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+        font-size: 20px;
+    }
+}
